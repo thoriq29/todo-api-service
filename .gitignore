@@ -1,0 +1,72 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+NuGet.Config
+NuGet.config
+nuget.config
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[R]elease/
+[Rr]eleases/
+[S]taging/
+[Dd]development/
+[Rr]eview/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# generated log files
+*.log
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Dump sql
+
+
+# Logger
+*.log
+
+#secrets file
+**/secrets.json
+**/secrets.*.json
+
+#kubernetes deployment
+!deployment/*
+src/mythic-repository-api/Logs/log.txt
+/src/mythic-repository-api/Logs/log.txt
+/src/mythic-repository-api-admin/Logs/log.txt
+src/mythic-repository-submission-api/Logs/log.txt
+/src/mythic-achievement-api/Logs/log.txt
+src/mythic-protocol-zero-admin-api/Logs/log.txt.rej
+src/mythic-protocol-zero-admin-api/Logs/log.txt
+src/protocol-zero-admin-api/Logs/log.txt
+src/protocol-zero-common/cicd
+src/protocol-zero-common/deployment
