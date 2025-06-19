@@ -158,7 +158,7 @@ Once the application is running, open your browser and navigate to the `/swagger
 ### Step 3: Authorize Swagger
 
 - Click the "Authorize" button at the top-right corner of the Swagger page.
-- Paste the token with the format: `Bearer {your_token}`
+- Paste the token with the format: `{your_token}`
 - Click "Authorize", then "Close".
 
 ### Step 4: Test Protected Endpoints
